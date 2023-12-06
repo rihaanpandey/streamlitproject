@@ -1,0 +1,12 @@
+version: "3.11"
+services:
+  app:
+    build:
+      context: .
+    volumes:
+      - .:/streamlit
+    ports:
+      - "8000:8000"
+    image: app:streamlit
+    container_name: my_first_docker_project
+    command: ["streamlit", "run", "--server.port", "8000", "index.py"]
