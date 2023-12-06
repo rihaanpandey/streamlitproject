@@ -1,5 +1,3 @@
-protobuf>=3.19.0
-streamlit==0.89.0
-pandas==1.3.3
-altair==4.1.0  # Adjust the version to a compatible one
-# other dependencies...
+streamlit
+pandas
+matplotlib
